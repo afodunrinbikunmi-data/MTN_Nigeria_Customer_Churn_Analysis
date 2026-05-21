@@ -51,7 +51,7 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 - Engineered 6 new features:
   - **`Age_Group`** — 5 demographic bands
   - **`Tenure_Group`** — 5 subscription length categories
-  - **`Churn_Binary` — 1/0 encoding for model training
+  - **`Churn_Binary`** — 1/0 encoding for model training
   - **`Revenue_Per_Purchase`** — spending efficiency metric
   - **`Churn_Probability`** — ML model score per customer (0–1)
   - **`Churn_Risk_Category`** — Low / Medium / High classification
