@@ -45,7 +45,7 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 - Identified Mobile SIM Card as highest churn device at 31.23%
 - Quantified ₦58M revenue lost to churn
 - Ranked churn reasons — High Call Tariffs leads at 19.01%
-
+![image descriptin]()
 **Python Stage:**
 - Verified zero missing values in key analytical columns
 - Engineered 6 new features:
@@ -57,6 +57,7 @@ with ₦83M more at risk from 493 medium-risk active customers.**
   - **`Churn_Risk_Category`** — Low / Medium / High classification
 - Trained Logistic Regression and Decision Tree classifiers
 - Exported enriched dataset for Power BI
+![image descriptin]()
 
 ## Key Questions & Analysis
 1. What is the overall churn rate and how much revenue has been lost?
@@ -89,12 +90,14 @@ The dataset is synthetically generated for educational purposes and does not rep
 ## Dashboard / Visualization
 The Power BI dashboard contains 4 report pages:
 
-| Page | Focus |
-|---|---|
-| Customer Overview | KPIs, active vs churned donut, customers by state/device/gender/age |
-| Churn Analysis | Churn rate by device/age/plan, reasons bar, satisfaction vs churn probability |
-| Revenue Analysis | Revenue by state/device/plan/month, revenue lost by churn reason |
-| Risk Intelligence | Churn probability by device/plan/state, risk matrix, ₦83M at risk |
+**Customer Overview**: KPIs, active vs churned donut, customers by state/device/gender/age
+![image descriptin]()
+**Churn Analysis**: Churn rate by device/age/plan, reasons bar, satisfaction vs churn probability
+![image descriptin]()
+**Revenue Analysis**: Revenue by state/device/plan/month, revenue lost by churn reason
+![image descriptin]()
+**Risk Intelligence**: Churn probability by device/plan/state, risk matrix, ₦83M at risk
+![image descriptin]()
 
 ## Project Structure
 ```text
