@@ -4,48 +4,40 @@ A data-driven investigation into customer churn across MTN Nigeria's subscriber 
 **Key finding: 29.16% churn rate has cost ₦58M in lost revenue —
 with ₦83M more at risk from 493 medium-risk active customers.**
 
----
-
 ## Dataset Overview
 | Field | Detail |
 |---|---|
-| Records | 974 customer entries |
-| States | 36 Nigerian states including FCT |
-| Period | Q1 2025 |
-| Device Types | Mobile SIM Card, Broadband MiFi, 4G Router, 5G Broadband Router |
-| Source | MTN Nigeria Customer Churn Dataset (Kaggle — synthetic) |
-
----
+| **Records** | 974 customer entries |
+| **States** | 36 Nigerian states including FCT |
+| **Period** | Q1 2025 |
+| **Device Types** | Mobile SIM Card, Broadband MiFi, 4G Router, 5G Broadband Router |
+| **Source** | MTN Nigeria Customer Churn Dataset (Kaggle — synthetic) |
 
 ## Key Columns in the Dataset
 | Column | Description |
 |---|---|
-| Customer_ID | Unique customer identifier |
-| MTN_Device | Device type purchased |
-| Subscription_Plan | MTN data plan name |
-| Unit_Price | Plan cost in Nigerian Naira |
-| Data_Usage | Estimated data consumption in GB |
-| Number_of_Times_Purchased | Purchase frequency within the month |
-| Total_Revenue | Unit Price × Number of Purchases |
-| Satisfaction_Rate | Customer satisfaction score (0–5) |
-| Customer_Tenure_in_months | Subscription length in months |
-| Customer_Churn_Status | Yes (churned) or No (active) |
-| Reasons_for_Churn | Churn reason for departed customers |
-| State | Nigerian state of residence |
-| Age | Customer age (16–80) |
-| Gender | Male or Female |
-
----
+| **Customer_ID** | Unique customer identifier |
+| **MTN_Device** | Device type purchased |
+| **Subscription_Plan** | MTN data plan name |
+| **Unit_Price** | Plan cost in Nigerian Naira |
+| **Data_Usage** | Estimated data consumption in GB |
+| **Number_of_Times_Purchased** | Purchase frequency within the month |
+| **Total_Revenue** | Unit Price × Number of Purchases |
+| **Satisfaction_Rate** | Customer satisfaction score (0–5) |
+| **Customer_Tenure_in_months** | Subscription length in months |
+| **Customer_Churn_Status** | Yes (churned) or No (active) |
+| **Reasons_for_Churn** | Churn reason for departed customers |
+| **State** | Nigerian state of residence |
+| **Age** | Customer age (16–80) |
+| **Gender** | Male or Female |
 
 ## Tools Used
 | Tool | Purpose | Stage |
 |---|---|---|
-| MySQL | 8 analytical queries — churn rate, device, reasons, revenue, age | Stage 1 |
-| Python (pandas, seaborn, scikit-learn) | EDA, feature engineering, churn prediction model | Stage 2 |
-| Microsoft Power BI | DAX measures, 4-page interactive dashboard | Stage 3 |
-| DAX | Custom KPI and risk measures | Stage 3 |
-
----
+| **MySQL** | 8 analytical queries — churn rate, device, reasons, revenue, age | Stage 1 |
+| **Python (pandas, seaborn, scikit-learn)** | EDA, feature engineering, churn prediction model | Stage 2 |
+| **Microsoft Power BI** | DAX measures, 4-page interactive dashboard | Stage 3 |
+| **DAX** | Custom KPI and risk measures | Stage 3 |
 
 ## Data Cleaning & Preparation
 **SQL Stage:**
@@ -57,16 +49,14 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 **Python Stage:**
 - Verified zero missing values in key analytical columns
 - Engineered 6 new features:
-  - `Age_Group` — 5 demographic bands
-  - `Tenure_Group` — 5 subscription length categories
-  - `Churn_Binary` — 1/0 encoding for model training
-  - `Revenue_Per_Purchase` — spending efficiency metric
-  - `Churn_Probability` — ML model score per customer (0–1)
-  - `Churn_Risk_Category` — Low / Medium / High classification
+  - **`Age_Group`** — 5 demographic bands
+  - **`Tenure_Group`** — 5 subscription length categories
+  - **`Churn_Binary` — 1/0 encoding for model training
+  - **`Revenue_Per_Purchase`** — spending efficiency metric
+  - **`Churn_Probability`** — ML model score per customer (0–1)
+  - **`Churn_Risk_Category`** — Low / Medium / High classification
 - Trained Logistic Regression and Decision Tree classifiers
 - Exported enriched dataset for Power BI
-
----
 
 ## Key Questions & Analysis
 1. What is the overall churn rate and how much revenue has been lost?
@@ -78,8 +68,6 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 7. Which active customers are most likely to churn next?
 8. How much revenue is currently at risk from medium-risk customers?
 
----
-
 ## Key Insights
 - **29.16% churn rate** — 284 customers lost, ₦58M revenue gone
 - **₦83M more at risk** — 493 medium-risk customers identified by ML model
@@ -90,19 +78,13 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 - **5G Router is the golden segment** — highest revenue, lowest churn probability
 - **Better Offers from Competitors causes most revenue damage** — ₦14M lost
 
----
-
 ## Recommendations
 1. Launch pricing competitiveness review — pricing drives 37% of all departures
 2. Proactive retention campaign for 493 medium-risk customers — protect ₦83M before it is lost
 3. Redesign the 200GB Broadband Plan — 45% churn rate requires structural intervention
 
----
-
 ## Limitations
 The dataset is synthetically generated for educational purposes and does not represent actual MTN Nigeria customer data, meaning findings cannot be directly applied to real business decisions without validation against live records. The churn prediction model is trained on 974 records which limits its statistical robustness and generalisation capability.
-
----
 
 ## Dashboard / Visualization
 The Power BI dashboard contains 4 report pages:
