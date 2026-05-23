@@ -47,27 +47,35 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 - Ranked churn reasons — High Call Tariffs leads at 19.01%
 
 - Overall churn rate
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%201%20-%20overall%20churn%20rate.PNG)
 
 - Churn by device type
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%202%20-%20churn%20rate%20by%20device.PNG)
 
 - Top churn reasons by frequency
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%203%20-%20top%20churn%20reasons.PNG)
 
 - Revenue by state
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%204%20-%20revenue%20by%20state.PNG)
 
 - Churn by subscription plan
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%205%20-%20churn%20by%20subscription%20plan.PNG)
 
 - Revenue lost to churn
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%206%20-%20revenue%20lost%20to%20churn.PNG)
 
 - Churn by age group
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%207%20-%20churn%20by%20age%20group.PNG)
 
 - The relationship between satisfaction rate and churn
+
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%208%20-%20satisfaction%20vs%20churn.PNG)
 
 **Python Stage:**
