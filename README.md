@@ -47,6 +47,7 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 - Ranked churn reasons — High Call Tariffs leads at 19.01%
 
 
+Below are the different queries ran on mysql for mtn customer churn analysis 
 - Overall churn rate
 
 ![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%201%20-%20overall%20churn%20rate.PNG)
