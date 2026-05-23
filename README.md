@@ -45,8 +45,30 @@ with ₦83M more at risk from 493 medium-risk active customers.**
 - Identified Mobile SIM Card as highest churn device at 31.23%
 - Quantified ₦58M revenue lost to churn
 - Ranked churn reasons — High Call Tariffs leads at 19.01%
-- 
-![image descriptin]()
+
+- Overall churn rate
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%201%20-%20overall%20churn%20rate.PNG)
+
+- Churn by device type
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%202%20-%20churn%20rate%20by%20device.PNG)
+
+- Top churn reasons by frequency
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%203%20-%20top%20churn%20reasons.PNG)
+
+- Revenue by state
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%204%20-%20revenue%20by%20state.PNG)
+
+- Churn by subscription plan
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%205%20-%20churn%20by%20subscription%20plan.PNG)
+
+- Revenue lost to churn
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%206%20-%20revenue%20lost%20to%20churn.PNG)
+
+- Churn by age group
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%207%20-%20churn%20by%20age%20group.PNG)
+
+- The relationship between satisfaction rate and churn
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/sql%20query%208%20-%20satisfaction%20vs%20churn.PNG)
 
 **Python Stage:**
 - Verified zero missing values in key analytical columns
@@ -58,9 +80,11 @@ with ₦83M more at risk from 493 medium-risk active customers.**
   - **`Churn_Probability`** — ML model score per customer (0–1)
   - **`Churn_Risk_Category`** — Low / Medium / High classification
 - Trained Logistic Regression and Decision Tree classifiers
+
+[Click here to view the full interactive Python notebook on Google Colab](https://colab.research.google.com/drive/1jZAHl3gxo8O_vh0ZU4QxvM8vsfwbTwWC#scrollTo=dP9fqGn9TZNC) — to see the step-by-step EDA and machine learning model training
+
 - Exported enriched dataset for Power BI
 
-![image descriptin]()
 
 ## Key Questions & Analysis
 1. What is the overall churn rate and how much revenue has been lost?
@@ -93,21 +117,23 @@ The dataset is synthetically generated for educational purposes and does not rep
 ## Dashboard / Visualization
 The Power BI dashboard contains 4 report pages:
 
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/mtn%20customer%20dashboard%20frame.png)
+
 **Customer Overview**: KPIs, active vs churned donut, customers by state/device/gender/age
 
-![image descriptin]()
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/new%20mtn%20customer%20overview.PNG)
 
 **Churn Analysis**: Churn rate by device/age/plan, reasons bar, satisfaction vs churn probability
 
-![image descriptin]()
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/MTN%20churn%20analysis%20dashboard%201.png)
 
 **Revenue Analysis**: Revenue by state/device/plan/month, revenue lost by churn reason
 
-![image descriptin]()
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/new%20revenue%20analysis%20mtn%20(2).PNG)
 
 **Risk Intelligence**: Churn probability by device/plan/state, risk matrix, ₦83M at risk
 
-![image descriptin]()
+![image descriptin](https://github.com/afodunrinbikunmi-data/MTN_Nigeria_Customer_Churn_Analysis/blob/main/new%20risk%20intelligence%20mtn.PNG)
 
 ## Project Structure
 ```text
